@@ -1,4 +1,4 @@
-# air-canvas-intent-aware
+
 # Intent-Aware Semantic Understanding of Mid-Air Writing and Drawing
 
 This repository implements a unified, sequence-based framework for interpreting mid-air
@@ -22,4 +22,22 @@ The system consists of a shared motion encoder followed by task-specific branche
 - A binary intent inference module (TEXT vs DRAWING)
 - A CTC-based text recognition branch
 - A contrastive semantic embedding branch for drawings
+
+Input Trajectory
+      ↓
+Motion Encoder (Transformer)
+      ↓
+Intent Head
+   ↙        ↘
+Text (CTC)  Drawing (Semantic Embedding)
+
+## Repository Contents
+
+- Sequence-based motion encoder for mid-air gestures
+- Explicit intent classification module
+- Text recognition using Connectionist Temporal Classification (CTC)
+- Open-vocabulary drawing understanding via contrastive learning
+- Training, evaluation, and visualization scripts
+- Reproducible experiment setup and documentation
+
 
