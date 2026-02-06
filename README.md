@@ -23,13 +23,6 @@ The system consists of a shared motion encoder followed by task-specific branche
 - A CTC-based text recognition branch
 - A contrastive semantic embedding branch for drawings
 
-Input Trajectory
-      ↓
-Motion Encoder (Transformer)
-      ↓
-Intent Head
-   ↙        ↘
-Text (CTC)  Drawing (Semantic Embedding)
 
 ## Repository Contents
 
